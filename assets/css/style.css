@@ -1,0 +1,698 @@
+:root {
+	--color-pink: #E6137E;
+	--color-white: #ffffff;
+	--color-black:#333333;
+    --color-grey:#7A7A7A;
+	--color-green:#8dc73f;
+    --color-blue: rgb(92, 107, 140);
+	--color-placeholder: rgb(51, 51, 51);
+	--border-radius: 0 0 0 10px;
+    --box-shadow:rgba(0, 0, 0, 0.3) 0px 0px 30px -10px;
+	--font-body: "Open Sans", sans-serif;
+	--font-heading:"Georgia", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font-heading);
+    
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+
+
+h3{
+    font-size: 1.8em;
+}
+
+h4{
+    font-size: 1.5em;
+}
+
+h5{
+    font-size: 1.3em;
+}
+
+h6{
+    font-size: 1.1em;
+}
+
+p, a, li, span{
+    font-family: var(--font-body);
+    font-size: 0.8em;
+    text-decoration: none;
+    line-height: 2em;
+    max-width: none;
+}
+
+.page-fullwidth{
+    width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+/*
+* Homepage 
+*/
+
+.frei-day-about, .about-us, .counters, .donation-content {
+    max-width: 1280px;
+    padding: 0 10%;
+
+}
+
+.main{
+    width: 1280px;
+    display: flex;
+    
+
+}
+
+
+.title{
+    font-family: var(--font-heading);
+    font-weight: 50;
+    line-height: 1.2em;
+    text-align: left;
+    
+}
+
+.divider{
+    width: 80px;
+    color: #E6137E;
+    margin-top: 40px;
+    
+}
+
+.description{
+    text-align: left;
+    line-height: 1.9em;  
+    font-size: 1em;
+    color: #7A7A7A;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  
+}
+
+.frei-day-details{
+    display: flex;
+    
+  }
+
+  .details-box{
+    display:block;
+    margin: 20px;
+    
+  }
+
+
+.background-image{
+    height: 250px;
+    width: 250px;
+    border-bottom: 50px;
+    background-size: cover;
+    border-radius: 0 0 0 10px;
+
+
+}
+
+.image-desc{
+    box-sizing: border-box;
+    border-color: var(--color-green);
+    color:#7A7A7A;
+    border-style: solid;
+    text-align: left;
+    padding: 10px 20px 10px 15px;
+    border-bottom: none;
+    border-right: none;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+}
+
+.link{
+    color: rgb(179, 74, 110);
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+     
+}
+
+a:hover{
+    color: #E6137E;
+    cursor: pointer;
+}
+
+.desc-title{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.counters{
+    position: relative;  
+    font-size: 1.5rem;
+    text-align: right;
+    display: flex;
+  
+ 
+}
+
+.num-schools{
+    font-family: var(--font-heading);
+    font-size: 4em;
+    line-height: 1em;
+    color:rgb(92, 107, 140);
+}
+
+.num-students{
+    font-family: var(--font-heading);
+    font-size: 4em;
+    line-height: 1em;
+    color: rgb(149, 193, 30);
+}
+
+.schools, .students{
+    font-weight: bold;
+}
+
+.frei-day-objective{
+    display: grid;
+    max-width: 1280px;
+    padding: 0 10%;
+    grid-template-columns: [left] 40% [right] 60% [end];
+    column-gap: 50px;
+}
+
+.column-left{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.column-right {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+.featured-article{
+    box-shadow: var(--box-shadow);
+    border-radius: 3px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+
+.featured-article-image{
+    min-height: 250px;
+    background-size: cover;
+    width: 100%;
+}
+
+.featured-article-title{
+    text-align: left;
+    color: var(--color-pink);
+    font-family: var(--font-body);
+    font-weight: 400;
+    margin-top: 50px;
+    font-size: 1.3em;
+
+}
+
+.featured-article-excerpt{
+    text-align: left;
+    color: var(--color-grey);
+    line-height: 1.5em;
+    font-size: 0.8em;
+
+}
+
+.featured-image{
+    min-height: 600px;
+    background-size: cover;
+    width: 100%;
+    margin-top: 150px;
+    background-position:center;
+    
+}
+
+
+.educational-info{
+    font-size: 1.5em;
+    box-sizing: border-box;
+    background-color: var(--color-green);
+    color:var(--color-white) ;
+    padding: 20px;
+    font-weight: 600;
+   
+    
+}
+
+.faq{
+    font-size: 1.5em;
+    box-sizing: border-box;
+    background-color: var(--color-blue);
+    color:var(--color-white) ;
+    padding: 20px;
+    font-weight: 600;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+
+}
+
+.magazin{
+    display: grid;
+    max-width: 1280px;
+    padding: 0 10%;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 35px;
+}
+
+.box{
+    box-shadow: var(--box-shadow);
+    border-radius: 3px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.magazin-image a{
+    box-sizing: border-box;
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    line-height: 26px;
+    position: relative;
+    top: 4%;
+    right: 4%;
+  }
+
+.magazin-image{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+}
+
+.magazin-title{
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 10px;
+    margin-top: 30px;
+    
+}
+
+.date{
+    color: rgb(122, 122, 122);
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.text{
+    font-size: 0.9em;
+    line-height: 30px;
+    font-size: var(--font-body);
+    padding: 10px;
+}
+
+.donation{
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    padding: 50px;
+
+}
+
+.amount{
+
+    margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+    
+
+}
+
+.amount a{
+    box-sizing: border-box;
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    border-radius: 7px;
+    padding: 20px 35px;
+    font-size: 1.5em;
+    line-height: 25px;
+    float:left;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    
+    
+}
+
+
+
+.amount a:hover{
+    background-color:#8dc73f;
+    cursor: pointer;
+}
+
+.donation-content{
+    max-width: 1280px;
+    padding: 0 10%;
+    margin: auto 0;
+}
+
+.donation h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 4em;
+    
+}
+
+.donation p{
+    font-size: 1.3em;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 510;
+    margin-top: 160px;
+}
+
+.office-hours{
+    background-color: var(--color-green);
+    padding: 150px;
+}
+
+.office-title{
+    color: var(--color-black);
+    font-size: 2.3em;
+    font-family: var(--font-heading);
+    font-weight: 400;
+    line-height: 1.2em;
+    text-align: left;
+    margin: 0;
+}
+
+
+
+.hours{
+    color: #ffffff;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 2em;
+    padding: 0% 20% 0% 20%;
+    text-align: left;
+
+    
+}
+
+.office-hours p{
+    color: #ffffff;
+    line-height: 2em;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 0% 20% 0% 20%;
+    text-align: left;
+    
+}
+
+.title-about{
+    text-align: left;
+    font-weight: 500;
+}
+
+.about-us p{
+    text-align: left;
+    color: #7A7A7A;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 30px;
+    margin-top: 30px;
+
+}
+
+.about-image{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-column-gap: 30px;
+   grid-row-gap: 35px;
+   
+}
+
+.about-us-box a{
+    color: #ffffff;
+    font-family: var(--font-body);
+    font-size: 2.5em;
+    line-height: 1.2em;
+    font-weight: 700;
+    height: 200px;
+
+}
+
+.about-us-box{
+    display: flex;
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 0 0 0 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.newsletter{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 70px;
+}
+
+.newsletter-box{
+    background-color: #8dc73f;
+    border-radius: 10px;
+    width: 575px;
+    height: 500px;
+}
+
+.news-title{
+    color: #ffffff;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.newsletter-box p{
+    color: #ffffff;
+    text-align: left;
+    padding: 20px;
+    font-size: 1em;
+    margin-bottom: 50px;
+}
+
+.form{
+    margin-bottom: 50px;
+
+    
+}
+
+.name, .surname{
+    width: 36%;
+    padding: 5px 15px;
+    font-size: 15px;
+    min-height: 45px;
+
+}
+
+.email{
+    font-size: 15px;
+    min-height: 45px;
+    padding: 5px 15px;
+    width: 79%;
+
+
+}
+
+.submit{
+    background-color: #28426B;
+    color: #ffffff;
+    font-size: 15px;
+    min-height: 45px;
+    padding: 5px 15px;
+    width: 85%;
+}
+
+.desc-title{
+    font-weight: 400;
+    font-size: 2.5em;
+    line-height: 40px;
+
+}
+
+.news-desc{
+    padding: 70%;
+
+}
+
+.news-desc p{
+    text-align: justify;
+    margin-bottom: 20px;
+    width: 100;
+    color: #7A7A7A;
+    font-size: 1em;
+    line-height: 30px;
+}
+
+.news-desc a{
+    box-sizing: border-box;
+    background-color: #E6137E;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+.jetzt-aufbrechen{
+    display: flex;
+    background-color: var(--color-pink);
+}
+
+.jetzt-box{
+    width: 500px;
+    margin: -200px auto 50px;
+}
+
+.jetzt-image{
+    height: 250px;
+    background-size:cover;
+}
+
+.jetzt-container{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-bottom-left-radius: 5px;
+    height: 200px;
+    
+}
+
+.jetzt-box h2{
+    margin: 0 40px 0 40px;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.jetzt-box p{
+    font-size: 1em;
+    
+    
+}
+
+.jetzt{
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: #8dc73f;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    
+}
+
+.jetzt-container a{
+    font-size: 1em;
+    color: #E6137E;
+    font-weight: 400;
+}
+
+.footer {
+    background-color: #28426B;
+    color: #ffffff;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;   
+    min-height: 70px;
+    align-items: center;
+    display: flex;
+
+ }
+
+.schools li{
+    list-style:none;
+}
+
+.schools-grid{
+margin: auto;
+
+}
+
+ .schools-grid-item{
+    width: 30%;
+    min-width: 400px;
+    min-height: 300px;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: var(--box-shadow);
+    float: inline-start;
+    margin: 10px;
+  
+}
+ 
+
+.schools-grid-item-cover{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    display: block;
+}
+
+.schools-grid-item-logo{
+    background-size: contain;
+    height: 160px;
+    width: 160px;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 1px solid var(--color-black);
+    background-position: center;
+    background-size: 120px;
+    box-shadow: var(--box-shadow);
+    margin: 20px 0 70px 10px;
+    border-color: yellow;
+   
+}
+
+.title-schul{
+    font-size: 0.8em;
+    margin-top: -120px;
+    margin-bottom: 15px;
+    margin-left: 200px;
+    text-align: left;
+    
+
+}
+
+.schulform, .bundesland{
+    font-size: 0.8em;
+    box-sizing: border-box;
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    border-radius: 20px;
+    padding: 5px 10px;
+    position: relative;
+    top: 4%;
+    right: 4%;
+    align-self: center;
+    
+} 
+

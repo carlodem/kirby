@@ -1,0 +1,60 @@
+.quote-bg-red{
+    margin: 100px 0;
+    background-color:#B34A6E;
+    padding: 50px 10%;
+}
+
+.quote-bg-blue{
+    background-color: var(--color-blue);
+    padding: 50px 10%;
+    margin: 100px 0;
+    
+}
+
+.quote{
+    color:white;
+    display:grid;
+    font-weight: 400;
+    width: 107 vw;
+    position: relative;
+    align-content: normal;
+}
+
+.quote-image{
+    grid-column-start: 1;
+    grid-column-end: 2 ;
+    margin: auto 0;
+    width: 200px;
+    overflow: hidden;
+    height: 200px;
+    border-radius: 0px 0px 20px 0px;
+    background-size: cover;
+}
+
+.quote-content{
+    grid-column-start: 2 ;
+    grid-column-end: 5 ;
+    margin: auto 0 auto 50px;
+    font-family: "Open Sans",Sans-serif;
+    text-align: left;
+}
+
+.quote-text{
+    font-size: 1.1em;
+    line-height: 1.3em;  
+}
+
+.quote-info{
+    margin-left: 15px;
+    font-family: "Georgia",Sans-serif;
+    font-size: 1.3em;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.quote-desc{
+    margin-left: 15px;
+    font-size: 0.9em;
+    margin-top: -10px;
+    font-family: "Open Sans",Sans-serif;
+}

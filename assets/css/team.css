@@ -1,0 +1,93 @@
+p, a, h3 {
+    margin: 0;
+}
+
+a{
+    color: #B34A6E;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: #EA4C85;
+}
+
+.email{
+    padding-top: 20px;
+}
+
+.team{
+    background-color: rgb(240, 239, 239);
+    padding: 100px; 
+}
+
+.team-member {
+    display: grid;
+    align-content: normal;
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+
+}
+
+.team-image {
+    grid-column-start: 1;
+    grid-column-end: 2 ;
+    margin: auto 0;
+    overflow: hidden;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 0px 0px 0px 10px;
+    background-position: center;
+    box-shadow: -5px 5px 15px 0 rgba(0,0,0,.25);
+}
+
+.team-content{
+    grid-column-start: 2 ;
+    grid-column-end: 5 ;
+   
+    
+
+    
+}
+
+.name-box{
+    width: 300px;
+    height: 80px;
+    background-color:#EA4C85;
+    color: rgb(242, 242, 242);
+    margin: 10px 0 0 -50px;
+    border-radius: 0px 0px 0px 15px;
+    padding: 10px 0 0 20px;
+    display: grid;
+    justify-content: space-between;
+}
+
+.team-name{
+    font-family: "Georgia",Sans-serif;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+.team-pos{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1em;
+}
+
+.team-text{
+    font-size: 0.9em;
+    line-height: 2.1em; 
+    font-family: "Open Sans",Sans-serif; 
+    margin: 10px 0 0 50px;
+    text-align: justify;
+
+}
+
+.email{
+    text-align: left;
+
+}
+
+
+
