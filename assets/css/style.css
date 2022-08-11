@@ -7,7 +7,8 @@
     --color-blue: rgb(92, 107, 140);
 	--color-placeholder: rgb(51, 51, 51);
 	--border-radius: 0 0 0 10px;
-    --box-shadow:rgba(0, 0, 0, 0.3) 0px 0px 30px -10px;
+    --box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 30px -10px;
+    --box-shadow-hover: rgba(0, 0, 0, 0.3) 0px 0px 30px -10px;
 	--font-body: "Open Sans", sans-serif;
 	--font-heading:"Georgia", sans-serif;
 }
@@ -635,16 +636,20 @@ margin: auto;
 
 }
 
- .schools-grid-item{
+.schools-grid-item{
     width: 30%;
     min-width: 400px;
-    min-height: 300px;
+    min-height: 350px;
     overflow: hidden;
     box-sizing: border-box;
     box-shadow: var(--box-shadow);
     float: inline-start;
     margin: 10px;
-  
+}
+
+.schools-grid-item:hover{
+    box-shadow:var(--box-shadow-hover);
+    color: var(--color-black);
 }
  
 
@@ -655,44 +660,58 @@ margin: auto;
     display: block;
 }
 
-.schools-grid-item-logo{
+.schools-grid-item-details{
+    display: flex;
+    padding: 10px;
+    max-height: 150px;
+    overflow: hidden;
+    min-height: 150px;
+}
+
+.schools-grid-item-details-logo{
+    display: block;
     background-size: contain;
-    height: 160px;
-    width: 160px;
+    height: 120px;
+    min-width: 120px;
+    max-width: 120px;
     overflow: hidden;
     position: relative;
     background-repeat: no-repeat;
     border-radius: 50%;
     border: 1px solid var(--color-black);
     background-position: center;
-    background-size: 120px;
+    background-size: 90px;
     box-shadow: var(--box-shadow);
-    margin: 20px 0 70px 10px;
     border-color: yellow;
-   
+    margin: auto 0;
 }
 
-.title-schul{
-    font-size: 0.8em;
-    margin-top: -120px;
-    margin-bottom: 15px;
-    margin-left: 200px;
+.schools-grid-item-details-content{
     text-align: left;
-    
-
+    padding-left: 10px;
+    margin: auto 0;
 }
 
-.schulform, .bundesland{
+.title-schule{
+    font-size: 1.7em;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+
+.schulform {
     font-size: 0.8em;
     box-sizing: border-box;
     background-color: var(--color-pink);
     color: var(--color-white);
     border-radius: 20px;
     padding: 5px 10px;
-    position: relative;
-    top: 4%;
-    right: 4%;
-    align-self: center;
-    
-} 
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.bundesland {
+    font-size: 1.2em;
+    font-weight: 400;
+}
 

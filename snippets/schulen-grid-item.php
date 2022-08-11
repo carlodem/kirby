@@ -4,12 +4,12 @@
             <div class="schools-grid-item-cover" style="background-image: url('../assets/images/index.jpg')"/>
             </div>
             <div class="schools-grid-item-details">
-                <div class="schools-grid-item-logo" style="background-image: url('<?= $school->logo() ?>')"/>
+                <div class="schools-grid-item-details-logo" style="background-image: url('<?= $school->logo() ?>')"/>
                 </div>
-                <div class="schools-grid-item-content">
-                    <h3 class="title-schul"><?= $school->title() ?></h3>
-                    <a href="" class="schulform"><?= $school->schulform() ?></a>
-                    <a href="" class="bundesland"><?= $school->region() ?></a>
+                <div class="schools-grid-item-details-content">  
+                    <h3 class="title-schule"><?= $school->title() ?></h3>
+                    <p class="bundesland"><?= $school->region() ?></p>
+                    <p class="schulform"><?= $school->schulform() ?></p>
                 </div>
             </div>
         </div>
