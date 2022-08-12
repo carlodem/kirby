@@ -11,18 +11,22 @@
     --box-shadow-hover: rgba(0, 0, 0, 0.3) 0px 0px 30px -10px;
 	--font-body: "Open Sans", sans-serif;
 	--font-heading:"Georgia", sans-serif;
+    --page-max-width: 1080px;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: var(--font-heading);
-    
+    text-align: left;
 }
 
 h1{
     font-size: 2.5em;
 }
 
-
+h2{
+    font-size: 2.1em;
+    margin-top: 40px;
+}
 
 h3{
     font-size: 1.8em;
@@ -42,10 +46,11 @@ h6{
 
 p, a, li, span{
     font-family: var(--font-body);
-    font-size: 0.8em;
+    font-size: 1em;
     text-decoration: none;
-    line-height: 2em;
+    line-height: 1.5em;
     max-width: none;
+    text-align: left;
 }
 
 .page-fullwidth{
@@ -714,4 +719,3 @@ margin: auto;
     font-size: 1.2em;
     font-weight: 400;
 }
-
