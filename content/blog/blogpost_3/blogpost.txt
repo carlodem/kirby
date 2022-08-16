@@ -1,0 +1,16 @@
+Title: Schule 3
+----
+Schulformen: Gemeinschaftsschule
+----
+Straße:
+----
+Ort: 
+----
+Regions: Hamburg
+----
+PLZ: 
+----
+Land:
+----
+Webseite der Schule:
+----

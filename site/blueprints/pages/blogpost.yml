@@ -1,0 +1,14 @@
+title: Schule
+preset: page
+states:
+  draft: true
+  listed: true
+
+  schulformen:
+    label: Schulform
+    type: tags
+
+  regions:
+    label: Bundesland
+    type: tags
+

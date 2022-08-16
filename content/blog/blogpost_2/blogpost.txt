@@ -1,0 +1,16 @@
+Title: Schule 2
+----
+Schulformen: Gemeinschaftsschule
+----
+Straße:
+----
+Ort: 
+----
+Regions: Berlin
+----
+PLZ: 
+----
+Land:
+----
+Webseite der Schule:
+----

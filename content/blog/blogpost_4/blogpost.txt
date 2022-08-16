@@ -1,0 +1,16 @@
+Title: Schule 4
+----
+Schulformen: Hauptschule
+----
+Straße:
+----
+Ort: 
+----
+Regions: Berlin
+----
+PLZ: 
+----
+Land:
+----
+Webseite der Schule:
+----

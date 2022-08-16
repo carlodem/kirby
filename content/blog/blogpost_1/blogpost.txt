@@ -1,0 +1,16 @@
+Title: Schule 1
+----
+Schulformen: Grundschule
+----
+Straße:
+----
+Ort: 
+----
+Regions: Niedersachsen
+----
+PLZ: 
+----
+Land:
+----
+Webseite der Schule:
+----
