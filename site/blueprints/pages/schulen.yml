@@ -1,0 +1,35 @@
+title: Schule
+preset: page
+states:
+  draft: true
+  listed: true
+
+  name: 
+    label: Name der Schule
+    type: text
+
+  strasse:
+    label: Adresse (Straße)
+    type: text
+
+  ort:
+    label: Adresse (Ort)
+    type: text
+
+  plz:
+    label: Adresse (PLZ)
+    type: text
+
+  regions:
+    label: Bundesland
+    type: tags
+
+  countries:
+    label: Adresse (Land)
+    type: tags
+
+
+  schulformen:
+    label: Schulform
+    type: tags
+

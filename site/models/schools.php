@@ -16,12 +16,11 @@ class SchoolsPage extends Page
                     'title'     => $school['Name der Schule'],
                     'street'    => $school['Adresse (Straße)'],
                     'city'      => $school['Adresse (Ort)'],
-                    'region'    => $school['Adresse (Bundesland)'],
+                    'region'    => $school['Bundesland'],
                     'plz'       => $school['Adresse (PLZ)'],
                     'country'   => $school['Adresse (Land)'],
                     'website'   => $school['Webseite der Schule'],
                     'logo'      => $school['Logo der Schule'],
-                    'schulform' => $school['Schulform'],
                 ]
             ];
         }, $csv);
