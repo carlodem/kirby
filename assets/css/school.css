@@ -58,12 +58,7 @@
 
 }
 
-.school-page-description p{
-    font-size: 1.3em;
-    text-align: left;
-    line-height: 1.8em;
-    margin-bottom: 50px;
-}
+
 
 .school-page-info{
     font-size: 2.5em;
@@ -102,4 +97,62 @@
     padding: 5px 10px;
     display: inline-block;
     margin: 5px 0;
+}
+
+.school-page-body{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.school-page-body-description {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 1.3em;
+    text-align: left;
+    line-height: 1.8em;
+    margin-bottom: 50px;
+}
+
+.school-page-body-info-box{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    box-shadow: var(--box-shadow);
+    margin: auto;
+    list-style: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-style: oblique;
+}
+
+.school-page-body-info-box h4{
+    margin-bottom: auto;
+}
+
+.schulen-fullpage{
+    width: 100%;
+    display: flex;
+   
+    
+
+}
+
+.divider{
+    width: 80px;
+    color: #E6137E;
+    margin-top: 10px;
+    
+}
+
+.schulen-tags{
+    width: 30%;
+    padding: 40px;
+}
+   
+
+
+
+.schools-grid{
+    width: 70%;
+   
 }
