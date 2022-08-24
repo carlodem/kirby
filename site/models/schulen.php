@@ -21,7 +21,7 @@ class SchulenPage extends Page
                     'country'   => $schule['country'],
                     'website'   => $schule['Webseite der Schule'],
                     'logo'      => $schule['Logo der Schule'],
-  /*                  'schulform' => $schule['schulform']*/
+                    'schulform' => $schule['schulform']
                 ]
             ];
         }, $csv);

@@ -1,11 +1,16 @@
-<?php snippet('header') ?>
+<head>
 <?= css("../assets/css/school.css")?>
+</head>
+
+
+<?php snippet('header') ?>
+
 
 <div class="schulen-fullpage">
   <div class="schulen-tags">
     <h1>Schulen</h1>
     <hr class="divider" align="left">
-    </hr>
+    </hr>   
     <!-- articles -->
   
 
@@ -58,7 +63,9 @@
         <?php endforeach ?>
     </ul>
     </div>
-    <?php foreach($schulen as $schule): ?>
+
+
+<!--   <?php foreach($schulen as $schule): ?>
     <article>
       <h1><a href="<?= $schule->url() ?>"><?= $schule->title()->html() ?></a></h1>
       <?= $schule->text()->excerpt(300) ?>
@@ -66,7 +73,7 @@
     <?php endforeach ?>
   </div>
 
-
+-->
 
   <!-- pagination -->
   <nav class="pagination">

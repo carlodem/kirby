@@ -132,15 +132,15 @@
 .schulen-fullpage{
     width: 100%;
     display: flex;
-   
-    
+
+
 
 }
 
 .divider{
     width: 80px;
     color: #E6137E;
-    margin-top: 10px;
+    margin-top: -10px;
     
 }
 
@@ -154,5 +154,6 @@
 
 .schools-grid{
     width: 70%;
-   
+
+
 }
